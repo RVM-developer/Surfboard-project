@@ -108,7 +108,7 @@ img {
 }
 
 .hero {
-  background: url("/img/decor/bg_maincontent1.jpg") center center no-repeat;
+  background: url("../img/decor/bg_maincontent1.jpg") center center no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 650px;
@@ -288,7 +288,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url(/img/icons/separator.png);
+  content: url(../img/icons/separator.png);
   position: absolute;
   top: 50px;
   right: 0;
@@ -426,8 +426,8 @@ img {
 }
 
 .order-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/img/decor/bg_order.jpg") center top no-repeat;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.7)), url("/img/decor/bg_order.jpg") center top no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../img/decor/bg_order.jpg") center top no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.7)), url("../img/decor/bg_order.jpg") center top no-repeat;
   background-size: cover;
 }
 
@@ -506,7 +506,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
-  background: url(/img/icons/checkmark.png) center center no-repeat;
+  background: url(../img/icons/checkmark.png) center center no-repeat;
 }
 
 .radio__elem {
