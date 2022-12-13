@@ -837,7 +837,7 @@ img {
 }
 
 .map-section {
-  background: url(../../img/decor/map.jpg) center center no-repeat;
+  background: url(../img/decor/map.jpg) center center no-repeat;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
