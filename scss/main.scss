@@ -1,9 +1,16 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoint
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $blue: #1968B1;
 $darkGreen: #0b4d3c;
+
+@import "template/media";
+@import "template/hamburger.scss";
 
 //z-indexes
 $z-fixed-menu: 100;
@@ -30,3 +37,11 @@ $z-fixed-menu: 100;
 @import "blocks/form";
 @import "blocks/radio";
 @import "blocks/fixed-menu";
+@import "blocks/map-section";
+@import "blocks/footer";
+@import "blocks/contacts";
+@import "blocks/socials";
+
+
+
+
